@@ -5,6 +5,7 @@ This application choose prompt messages to be choosen by the user and then send 
 
 the xml file is format like that:
 
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <smtp_prank>
 	<groups>
@@ -38,6 +39,10 @@ the xml file is format like that:
 		</message>
 	</messages>
 </smtp_prank>
-
+```
 
 ## Run
+To run the application, it required 3 arguments:
+1: Hostname of the SMTP Server
+2. Port of the SMTP Server
+3. Name of the xml file (in the same directory as the executable)
