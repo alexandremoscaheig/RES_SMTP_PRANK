@@ -43,6 +43,6 @@ the xml file is format like that:
 
 ## Run
 To run the application, it required 3 arguments:
-1: Hostname of the SMTP Server
+1. Hostname of the SMTP Server
 2. Port of the SMTP Server
 3. Name of the xml file (in the same directory as the executable)
